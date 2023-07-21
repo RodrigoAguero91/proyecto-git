@@ -1,0 +1,55 @@
+/*-- inicio de la seccion de personal*/
+.flex_container_pers {
+    height: 1000px;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 5%;
+
+}
+
+.imagen {
+    border-radius: 100%;
+    height: 170px;
+    width: 170px;
+    
+}
+.personal {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: yellow;
+    margin: 1%;
+    
+}
+
+.info_personal {
+    height: 160px;
+    width: 300px;
+    margin-left: 5%;
+}
+
+/*-- fin de la seccion de personal*/
+
+
+@media (min-width: 375px) {
+    .flex_container {
+        padding: 1rem;
+    }
+
+    .personal {
+        display: flex;
+        justify-content: center; 
+        
+    }
+
+    .imagen {
+        padding-top: 2rem;
+    }
+
+    .info_personal{
+        margin-left: 5%;
+    }
+    
+}
