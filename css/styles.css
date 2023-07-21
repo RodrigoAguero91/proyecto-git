@@ -35,13 +35,14 @@
     padding: 20px;
   }
   .info_footer {
-    height: 160px;
+    height: 3;
     width: 300px;
-    padding: 1rem;
   }
   .copyright {
-    height: 50px;
-    padding: 1rem;
+    width: 500px;
+    height: 500px;
+    padding: none;
+    text-align: center;
   }
   .logo_redes {
     height: 160px;
@@ -156,55 +157,42 @@ h2 {
   }
 }
 /*-- inicio de la seccion de personal*/
-.flex_container_pers {
-  height: 1000px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 5%;
-}
-
-.imagen {
-  border-radius: 100%;
-  height: 170px;
-  width: 170px;
-}
-
-.personal {
-  height: 300px;
-  width: 800px;
-  display: flex;
-  padding: 1rem;
-  margin-top: 10px;
-  background-color: yellow;
-  margin: 1%;
-}
-
-.info_personal {
-  height: 160px;
-  width: 300px;
-  margin-left: 5%;
-}
-
-/*-- fin de la seccion de personal*/
-@media (min-width: 375px) {
-  .flex_container {
-    padding: 1rem;
-  }
-  .personal {
+@media (min-width: 1200px) {
+  .container_pers {
+    height: 1000px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
   }
   .imagen {
-    padding-top: 2rem;
+    border-radius: 100%;
+    height: 170px;
+    width: 170px;
+  }
+  .personal {
+    height: 250px;
+    width: 800px;
+    display: flex;
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: yellow;
+    margin: 1%;
   }
   .info_personal {
+    height: 160px;
+    width: 300px;
     margin-left: 5%;
   }
 }
+/*-- fin de la seccion de personal*/
 /*-- inicio servicios--*/
 @media (min-width: 375px) {
   .servicios {
     display: none;
+  }
+  .personal {
+    background-color: yellow;
+    margin: 2%;
   }
 }
 @media (min-width: 1200px) {
@@ -212,7 +200,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 1200px;
-    padding: 20px;
+    padding: 1%;
     margin-left: 18%;
   }
   .servicios_tarj {

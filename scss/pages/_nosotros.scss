@@ -1,5 +1,9 @@
 /*-- inicio de la seccion de personal*/
-.flex_container_pers {
+
+
+
+@media(min-width:1200px) {
+.container_pers {
     height: 1000px;
     display: flex;
     flex-wrap:wrap;
@@ -14,7 +18,7 @@
     
 }
 .personal {
-    height: 300px;
+    height: 250px;
     width: 800px;
     display: flex;
     padding: 1rem;
@@ -29,27 +33,9 @@
     width: 300px;
     margin-left: 5%;
 }
-
+}
 /*-- fin de la seccion de personal*/
 
 
-@media (min-width: 375px) {
-    .flex_container {
-        padding: 1rem;
-    }
 
-    .personal {
-        display: flex;
-        justify-content: center; 
-        
-    }
 
-    .imagen {
-        padding-top: 2rem;
-    }
-
-    .info_personal{
-        margin-left: 5%;
-    }
-    
-}
