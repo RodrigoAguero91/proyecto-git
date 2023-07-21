@@ -113,49 +113,48 @@ a:hover {
 }
 
 /*-- inicio de formulario de contacto*/
-.flex_container {
-  height: auto;
-}
-
-h2 {
-  text-align: center;
-}
-
-.contenedor {
-  display: flex;
-  justify-content: center;
-  width: 1800px;
-  padding: 10px;
-}
-
-.input, button {
-  width: 500px;
-}
-
-.contenedor_contacto {
-  width: 600px;
-  height: 400px;
-  margin: 5%;
-}
-
-.contenedor_mapa {
-  width: 600px;
-  height: 300px;
-  background-color: blue;
-  margin: 5%;
-}
-
-/*-- fin de formulario de contacto*/
 @media (min-width: 375px) {
   .contenedor_contacto {
     display: flex;
     margin: auto;
     margin-left: 2rem;
   }
+  .contenedor_mapa {
+    display: none;
+  }
   .input, button {
     width: 400px;
   }
 }
+@media (min-width: 1200px) {
+  .flex_container {
+    height: auto;
+  }
+  h2 {
+    text-align: center;
+  }
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    width: 1800px;
+    padding: 10px;
+  }
+  .input, button {
+    width: 500px;
+  }
+  .contenedor_contacto {
+    width: 600px;
+    height: 400px;
+    margin: 5%;
+  }
+  .contenedor_mapa {
+    width: 600px;
+    height: 300px;
+    background-color: blue;
+    margin: 5%;
+  }
+}
+/*-- fin de formulario de contacto*/
 /*-- inicio de la seccion de personal*/
 @media (min-width: 1200px) {
   .container_pers {
