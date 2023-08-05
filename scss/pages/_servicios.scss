@@ -1,39 +1,41 @@
 /*-- inicio servicios--*/
 
-@media (min-width: 375px){
+@media (min-width: 375px) {
   .servicios {
-   display: none;
+    display: none;
   }
-    .personal {
-      background-color: yellow;
-      margin: 2%;
-    }
+
+  .personal {
+    background-color: yellow;
+    margin: 2%;
+  }
 }
 
 @media(min-width:1200px) {
-.servicios {
-  display: flex;
-  flex-direction: column;
-  width: 1200px;
-  padding: 1%;
-  margin-left: 18%;
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    padding: 1%;
+    margin-left: 18%;
   }
 
   .servicios_tarj {
     margin: 2%;
-    background-color:yellow;
+    background-color: yellow;
+    box-shadow: 10px 10px 10px;
     width: 1100px;
     height: 150px;
     text-align: center;
     padding-top: 2rem;
-    
+
   }
+
   p {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-   }
   }
-  /*-- fin de servicios--*/
+}
 
-  
+/*-- fin de servicios--*/

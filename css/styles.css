@@ -9,7 +9,9 @@
     align-items: center;
     text-decoration: none;
   }
-  header ul, li, a {
+  header ul,
+  li,
+  a {
     gap: 30px;
     display: flex;
     color: inherit;
@@ -24,6 +26,12 @@
   h1 {
     padding-top: 10%;
     padding-left: 2%;
+  }
+  h2 {
+    font-weight: bold;
+  }
+  h3 {
+    font-weight: bold;
   }
   /*-- Fin de header, barra de navegacion --*/
   /*-- inicio del pie de pagina*/
@@ -61,12 +69,15 @@
   header {
     background-color: black;
   }
-  header ul, li {
+  header ul,
+  li {
     text-align: center;
     padding: 0.1rem;
     list-style: none;
   }
-  .logo, h1, .copyright {
+  .logo,
+  h1,
+  .copyright {
     text-align: center;
   }
   a {
@@ -118,11 +129,10 @@ a:hover {
     display: flex;
     margin: auto;
     margin-left: 2rem;
+    align-items: center;
   }
-  .contenedor_mapa {
-    display: none;
-  }
-  .input, button {
+  .input,
+  button {
     width: 400px;
   }
 }
@@ -138,19 +148,15 @@ a:hover {
     justify-content: center;
     width: 1800px;
     padding: 10px;
+    margin-left: 5%;
   }
-  .input, button {
+  .input,
+  button {
     width: 500px;
   }
   .contenedor_contacto {
     width: 600px;
     height: 400px;
-    margin: 5%;
-  }
-  .contenedor_mapa {
-    width: 600px;
-    height: 300px;
-    background-color: blue;
     margin: 5%;
   }
 }
@@ -161,7 +167,7 @@ a:hover {
     height: 1000px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5%;
+    margin-left: 3%;
   }
   .imagen {
     border-radius: 100%;
@@ -174,8 +180,8 @@ a:hover {
     display: flex;
     padding: 1rem;
     margin-top: 10px;
-    background-color: yellow;
-    margin: 1%;
+    background: yellow;
+    box-shadow: 10px 10px 10px;
   }
   .info_personal {
     height: 160px;
@@ -205,6 +211,7 @@ a:hover {
   .servicios_tarj {
     margin: 2%;
     background-color: yellow;
+    box-shadow: 10px 10px 10px;
     width: 1100px;
     height: 150px;
     text-align: center;
@@ -255,7 +262,9 @@ img {
     align-items: center;
     text-decoration: none;
   }
-  header ul, li, a {
+  header ul,
+  li,
+  a {
     gap: 30px;
     display: flex;
     color: inherit;
@@ -306,12 +315,15 @@ img {
   header {
     background-color: black;
   }
-  header ul, li {
+  header ul,
+  li {
     text-align: center;
     padding: 0.1rem;
     list-style: none;
   }
-  .logo, h1, .copyright {
+  .logo,
+  h1,
+  .copyright {
     text-align: center;
   }
   a {
